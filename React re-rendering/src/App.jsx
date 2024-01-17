@@ -7,7 +7,6 @@ function App() {
 
   return (
     <div>
-    {/* <HeaderWithButton /> */}
     <button onClick={()=> {setTitle(Math.random())}}>Update Title</button>
     <Header title={title}></Header>
      <Header title='xyz'></Header>
@@ -26,19 +25,6 @@ const Header = React.memo(function ({title}){
     </div>
   )
 })
-
-// function HeaderWithButton(){
-//   const [title , setTitle] = useState('Fatima')
-//   function UpdateTitle(){
-//     setTitle(Math.random())
-//   }
-//   return (
-//     <div>
-//       <button onClick={UpdateTitle}>Update Title</button>
-//       <Header title={title}></Header>
-//     </div>
-//   )
-// }
 
 
 export default App
