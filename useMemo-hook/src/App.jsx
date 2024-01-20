@@ -18,11 +18,6 @@ function App() {
     return sum
   },[value])
   
-  // let sum = 0;
-  //   for (let i = 1; i<= value; i++){
-  //     sum = sum + i
-  //     console.log(sum)
-  //   }
   return (
     <div>
       <input type='Number' onChange={(e) => {setValue(e.target.value)}}></input>
