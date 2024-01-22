@@ -15,7 +15,6 @@ for (let i = 0; i < TOTAL_LINES; i++) {
         sentence += " "
     }
     ALL_WORDS.push(sentence);
-    // console.log(ALL_WORDS)
 }
 
 export function Assignment2() {

@@ -10,7 +10,6 @@ function App() {
       {/* <Assignment1 /> */}
       {/* <Assignment2 /> */}
       <Assignment3 />
-      {/* <Practice /> */}
     </>
   )
 }

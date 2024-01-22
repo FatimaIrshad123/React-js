@@ -5,7 +5,6 @@ import {memo, useCallback, useState } from "react";
 export function Assignment1() {
     const [count, setCount] = useState(0);
 
-    // Your code starts here
     const handleIncrement = useCallback(() => {
         setCount(count + 1)
     },[count])
@@ -13,8 +12,6 @@ export function Assignment1() {
     const handleDecrement = useCallback (() => {
         setCount(count-1)
     },[count])
-    // Your code ends here
-
     return (
         <div>
             <p>Count: {count}</p>
