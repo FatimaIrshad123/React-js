@@ -11,12 +11,6 @@ export const notifications = atom({
             return res.data
         } 
     })
-    // default: {
-    //     network: 0, 
-    //     jobs: 0, 
-    //     messaging: 0, 
-    //     notifications: 0
-    // }
 });
 
 export const totalNotificationSelector = selector({
