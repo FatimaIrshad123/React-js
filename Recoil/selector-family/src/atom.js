@@ -14,8 +14,4 @@ export const TodoAtomFamily = atomFamily({
             return res.data.todo
         }
     })
-    // id => {
-    //     return todo.find(x => x.id === id)
-    // }
-    
 })
